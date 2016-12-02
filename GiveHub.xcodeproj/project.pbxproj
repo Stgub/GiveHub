@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		196AA0A91DF1028300B2FE6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0A81DF1028300B2FE6E /* AppDelegate.swift */; };
-		196AA0AB1DF1028300B2FE6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0AA1DF1028300B2FE6E /* ViewController.swift */; };
+		196AA0AB1DF1028300B2FE6E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0AA1DF1028300B2FE6E /* SignInVC.swift */; };
 		196AA0AE1DF1028400B2FE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196AA0AC1DF1028400B2FE6E /* Main.storyboard */; };
 		196AA0B01DF1028400B2FE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196AA0AF1DF1028400B2FE6E /* Assets.xcassets */; };
 		196AA0B31DF1028400B2FE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196AA0B11DF1028400B2FE6E /* LaunchScreen.storyboard */; };
+		196AA0BB1DF1030700B2FE6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 196AA0BA1DF1030700B2FE6E /* GoogleService-Info.plist */; };
+		82517557881F716B45264744 /* Pods_GiveHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28870C26FCA03EC507B472B4 /* Pods_GiveHub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1806C416DCEA9DBF6E1D99AE /* Pods-GiveHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiveHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GiveHub/Pods-GiveHub.debug.xcconfig"; sourceTree = "<group>"; };
 		196AA0A51DF1028300B2FE6E /* GiveHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiveHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		196AA0A81DF1028300B2FE6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		196AA0AA1DF1028300B2FE6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		196AA0AA1DF1028300B2FE6E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		196AA0AD1DF1028400B2FE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		196AA0AF1DF1028400B2FE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		196AA0B21DF1028400B2FE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196AA0B41DF1028400B2FE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196AA0BA1DF1030700B2FE6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28870C26FCA03EC507B472B4 /* Pods_GiveHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiveHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1938279695DEA22E0D017D /* Pods-GiveHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiveHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-GiveHub/Pods-GiveHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82517557881F716B45264744 /* Pods_GiveHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				196AA0A71DF1028300B2FE6E /* GiveHub */,
 				196AA0A61DF1028300B2FE6E /* Products */,
+				CD4B984582418B6C2B9065B0 /* Pods */,
+				CE67B816EB5F9EE34E11C785 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,64 @@
 		196AA0A71DF1028300B2FE6E /* GiveHub */ = {
 			isa = PBXGroup;
 			children = (
+				196AA0BF1DF1055300B2FE6E /* Utilities */,
+				196AA0BC1DF1053700B2FE6E /* Model */,
+				196AA0BE1DF1054A00B2FE6E /* Controller */,
+				196AA0BD1DF1054200B2FE6E /* View */,
 				196AA0A81DF1028300B2FE6E /* AppDelegate.swift */,
-				196AA0AA1DF1028300B2FE6E /* ViewController.swift */,
 				196AA0AC1DF1028400B2FE6E /* Main.storyboard */,
 				196AA0AF1DF1028400B2FE6E /* Assets.xcassets */,
 				196AA0B11DF1028400B2FE6E /* LaunchScreen.storyboard */,
 				196AA0B41DF1028400B2FE6E /* Info.plist */,
+				196AA0BA1DF1030700B2FE6E /* GoogleService-Info.plist */,
 			);
 			path = GiveHub;
+			sourceTree = "<group>";
+		};
+		196AA0BC1DF1053700B2FE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		196AA0BD1DF1054200B2FE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		196AA0BE1DF1054A00B2FE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				196AA0AA1DF1028300B2FE6E /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		196AA0BF1DF1055300B2FE6E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CD4B984582418B6C2B9065B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1806C416DCEA9DBF6E1D99AE /* Pods-GiveHub.debug.xcconfig */,
+				4A1938279695DEA22E0D017D /* Pods-GiveHub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE67B816EB5F9EE34E11C785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28870C26FCA03EC507B472B4 /* Pods_GiveHub.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 196AA0B71DF1028400B2FE6E /* Build configuration list for PBXNativeTarget "GiveHub" */;
 			buildPhases = (
+				615555CD553E43A7F8DED04A /* [CP] Check Pods Manifest.lock */,
 				196AA0A11DF1028300B2FE6E /* Sources */,
 				196AA0A21DF1028300B2FE6E /* Frameworks */,
 				196AA0A31DF1028300B2FE6E /* Resources */,
+				47C84D0081CDE001D3859898 /* [CP] Embed Pods Frameworks */,
+				ECD6395809DE113C3103ABA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,18 +188,67 @@
 			files = (
 				196AA0B31DF1028400B2FE6E /* LaunchScreen.storyboard in Resources */,
 				196AA0B01DF1028400B2FE6E /* Assets.xcassets in Resources */,
+				196AA0BB1DF1030700B2FE6E /* GoogleService-Info.plist in Resources */,
 				196AA0AE1DF1028400B2FE6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47C84D0081CDE001D3859898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiveHub/Pods-GiveHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615555CD553E43A7F8DED04A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD6395809DE113C3103ABA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiveHub/Pods-GiveHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		196AA0A11DF1028300B2FE6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196AA0AB1DF1028300B2FE6E /* ViewController.swift in Sources */,
+				196AA0AB1DF1028300B2FE6E /* SignInVC.swift in Sources */,
 				196AA0A91DF1028300B2FE6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +370,7 @@
 		};
 		196AA0B81DF1028400B2FE6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1806C416DCEA9DBF6E1D99AE /* Pods-GiveHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T4B85P4F7X;
@@ -272,6 +384,7 @@
 		};
 		196AA0B91DF1028400B2FE6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1938279695DEA22E0D017D /* Pods-GiveHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T4B85P4F7X;
@@ -302,6 +415,7 @@
 				196AA0B91DF1028400B2FE6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
