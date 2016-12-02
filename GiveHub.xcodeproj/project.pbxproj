@@ -15,6 +15,13 @@
 		196AA0BB1DF1030700B2FE6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 196AA0BA1DF1030700B2FE6E /* GoogleService-Info.plist */; };
 		196AA0C11DF10D7800B2FE6E /* RoundedCornersAndShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0C01DF10D7800B2FE6E /* RoundedCornersAndShadow.swift */; };
 		196AA0C31DF10DFD00B2FE6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0C21DF10DFD00B2FE6E /* Constants.swift */; };
+		196AA0C51DF1143200B2FE6E /* InterestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0C41DF1143200B2FE6E /* InterestsVC.swift */; };
+		196AA0C71DF11A7B00B2FE6E /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0C61DF11A7B00B2FE6E /* FancyField.swift */; };
+		196AA0C91DF1306200B2FE6E /* ParticipationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0C81DF1306200B2FE6E /* ParticipationVC.swift */; };
+		196AA0CB1DF134CB00B2FE6E /* OpportunitiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0CA1DF134CB00B2FE6E /* OpportunitiesVC.swift */; };
+		196AA0CD1DF19D0E00B2FE6E /* OpportunitiesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0CC1DF19D0E00B2FE6E /* OpportunitiesTable.swift */; };
+		196AA0CF1DF1A1AF00B2FE6E /* DetailedEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0CE1DF1A1AF00B2FE6E /* DetailedEventVC.swift */; };
+		196AA0D11DF1A47800B2FE6E /* ThankYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196AA0D01DF1A47800B2FE6E /* ThankYouVC.swift */; };
 		82517557881F716B45264744 /* Pods_GiveHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28870C26FCA03EC507B472B4 /* Pods_GiveHub.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +37,13 @@
 		196AA0BA1DF1030700B2FE6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		196AA0C01DF10D7800B2FE6E /* RoundedCornersAndShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersAndShadow.swift; sourceTree = "<group>"; };
 		196AA0C21DF10DFD00B2FE6E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		196AA0C41DF1143200B2FE6E /* InterestsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsVC.swift; sourceTree = "<group>"; };
+		196AA0C61DF11A7B00B2FE6E /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		196AA0C81DF1306200B2FE6E /* ParticipationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipationVC.swift; sourceTree = "<group>"; };
+		196AA0CA1DF134CB00B2FE6E /* OpportunitiesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpportunitiesVC.swift; sourceTree = "<group>"; };
+		196AA0CC1DF19D0E00B2FE6E /* OpportunitiesTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpportunitiesTable.swift; sourceTree = "<group>"; };
+		196AA0CE1DF1A1AF00B2FE6E /* DetailedEventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedEventVC.swift; sourceTree = "<group>"; };
+		196AA0D01DF1A47800B2FE6E /* ThankYouVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouVC.swift; sourceTree = "<group>"; };
 		28870C26FCA03EC507B472B4 /* Pods_GiveHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiveHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1938279695DEA22E0D017D /* Pods-GiveHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiveHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-GiveHub/Pods-GiveHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				196AA0C01DF10D7800B2FE6E /* RoundedCornersAndShadow.swift */,
+				196AA0C61DF11A7B00B2FE6E /* FancyField.swift */,
+				196AA0CC1DF19D0E00B2FE6E /* OpportunitiesTable.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -100,6 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				196AA0AA1DF1028300B2FE6E /* SignInVC.swift */,
+				196AA0C41DF1143200B2FE6E /* InterestsVC.swift */,
+				196AA0C81DF1306200B2FE6E /* ParticipationVC.swift */,
+				196AA0CA1DF134CB00B2FE6E /* OpportunitiesVC.swift */,
+				196AA0CE1DF1A1AF00B2FE6E /* DetailedEventVC.swift */,
+				196AA0D01DF1A47800B2FE6E /* ThankYouVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -254,9 +275,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196AA0D11DF1A47800B2FE6E /* ThankYouVC.swift in Sources */,
+				196AA0C71DF11A7B00B2FE6E /* FancyField.swift in Sources */,
 				196AA0C11DF10D7800B2FE6E /* RoundedCornersAndShadow.swift in Sources */,
+				196AA0C51DF1143200B2FE6E /* InterestsVC.swift in Sources */,
+				196AA0C91DF1306200B2FE6E /* ParticipationVC.swift in Sources */,
+				196AA0CD1DF19D0E00B2FE6E /* OpportunitiesTable.swift in Sources */,
 				196AA0AB1DF1028300B2FE6E /* SignInVC.swift in Sources */,
 				196AA0A91DF1028300B2FE6E /* AppDelegate.swift in Sources */,
+				196AA0CF1DF1A1AF00B2FE6E /* DetailedEventVC.swift in Sources */,
+				196AA0CB1DF134CB00B2FE6E /* OpportunitiesVC.swift in Sources */,
 				196AA0C31DF10DFD00B2FE6E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
